@@ -14,7 +14,8 @@ namespace Week6
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (IsPostBack == false) { 
+            if (IsPostBack == false)
+            { 
                 // check the url for an id so we know if we are adding or editing
                 if (!String.IsNullOrEmpty(Request.QueryString["DepartmentID"]))
                 {

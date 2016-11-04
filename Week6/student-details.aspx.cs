@@ -58,7 +58,7 @@ namespace Week6
             // New student object's properties
             s.LastName = txtLastName.Text;
             s.FirstMidName = txtFirstMidName.Text;
-            s.EnrollmentDate  = Convert.ToDateTime(txtEnrollmentDate.Text);
+            s.EnrollmentDate = Convert.ToDateTime(txtEnrollmentDate.Text);
 
             // Save the new object to the database
             conn.Students.Add(s);
